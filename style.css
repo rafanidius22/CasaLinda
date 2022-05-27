@@ -1,0 +1,195 @@
+html,body {
+  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.tela {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0;
+  background: #c7c5c5;
+  box-shadow: 0px 0px 10px black;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: absolute;
+  width: 80px;
+  height: 950px;
+  left: 0px;
+  top: 111px;
+  background: #ffffff;
+  border-radius: 0px 100px 0px 0px;
+  box-shadow: 0px 0px 10px black;
+}
+
+div.painel h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.botoes {
+  position: relative;
+  color: black;
+  cursor: pointer;
+}
+
+.botoes:hover {
+  color: #8f8f8f;
+}
+
+.imagem {
+  width: 110px;
+  height: 109px;
+  margin: -38.5px 70px -20px 25px;
+}
+.cabeçalho {
+  width: 1920px;
+  height: 110px;
+  top: 0px;
+  background: #a3a3a3;
+  box-shadow: 0px 0px 10px black;
+}
+
+.texto {
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+#quadrado1 {
+  position: absolute;
+  width: 525px;
+  height: 282px;
+  left: 427px;
+  top: 175px;
+  text-align: center;
+  background: #a3a3a3;
+  font-family: "Oswald", sans-serif;
+  border-radius: 30px;
+}
+
+#quadrado2 {
+  position: absolute;
+  width: 525px;
+  height: 282px;
+  left: 1113px;
+  top: 175px;
+  font-family: "Oswald", sans-serif;
+  background: #a3a3a3;
+  text-align: center;
+  border-radius: 30px;
+}
+
+#quadrado3 {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  width: 1563px;
+  height: 494px;
+  left: 233px;
+  top: 517px;
+  text-align: center;
+  background: #a3a3a3;
+  border-radius: 30px;
+}
+
+table {
+  position: absolute;
+  width: 1697px;
+  height: 788px;
+  left: 184px;
+  top: 251px;
+  background-color: #a3a3a3;
+  border-radius: 30px 30px 0px 0px;
+  border: 4px solid black;
+  overflow: scroll;
+  margin: auto;
+  padding: auto;
+}
+td,
+th {
+  border: 3px solid black;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+  border-spacing: 0px;
+  vertical-align: middle;
+}
+th {
+  border-radius: 30px 30px 0px 0px;
+}
+
+div#quadrado4 {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  width: 1563px;
+  height: 494px;
+  left: 233px;
+  top: 200px;
+  text-align: center;
+  background: #a3a3a3;
+  border-radius: 30px;
+}
+
+#quadradoconfig {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  width: 963px;
+  height: 800px;
+  left: 533px;
+  top: 200px;
+  text-align: center;
+  background: #a3a3a3;
+  border-radius: 30px;
+}
+
+#botaoCadastro {
+  width: 230px;
+  height: 50px;
+  margin-top: -20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20pt;
+}
+#botaoRemove {
+  width: 230px;
+  height: 50px;
+  margin-top: -20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: -10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20pt;
+}
+#botaoBusca {
+  width: 230px;
+  height: 50px;
+  margin-top: -20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: -10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20pt;
+}
+input:hover {
+  background-color: #c0b7c0;
+}
+#buscaEstoque {
+  width: 230px;
+  height: 50px;
+  margin-top: -20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20pt;
+}
+#fieldProduto {
+  margin: 5% 25%;
+}
