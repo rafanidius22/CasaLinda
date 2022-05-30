@@ -7,19 +7,20 @@
   top: -5px;
   background: rgb(199, 197, 197);
   box-shadow: 0px 5px 10px black;
+
 }
 
 .nav {
   
-  position: relative;
+  position: fixed;
   width: 80px;
-  height: 53.9rem;
+  height: 830px;
   left: 0px;
-  top: -4.7em;
+  top: 118.8px;
   background: #ffffff;
   border-radius: 0px 100px 0px 0px;
   box-shadow: 0px 0px 10px black;
-  display: block;
+
 }
 
 div.painel h1 {
@@ -27,11 +28,11 @@ div.painel h1 {
   font-family: "Oswald", sans-serif;
 }
 
-.botoes {
+.botoes  {
+  text-align: center;
   position: relative;
   color: black;
   cursor: pointer;
-  display: block;
 }
 
 .botoes:hover {
@@ -58,14 +59,14 @@ div.painel h1 {
   text-align: center;
 }
 #quadrado1 {
-  position: relative;
-  margin: auto;
-  left:25rem;
-  width: 25%;
-  height: 25%;
-  text-align: center;
-  background: #740d0d;
+  position: absolute;
+  width: 525px;
+  height: 282px;
+  left: 300px;
+  top: 175px;
   font-family: "Oswald", sans-serif;
+  background: #a3a3a3;
+  text-align: center;
   border-radius: 30px;
 }
 
@@ -82,7 +83,7 @@ div.painel h1 {
 }
 
 #quadrado3 {
-  position: absolute;
+  position: relative;
   font-family: "Oswald", sans-serif;
   width: 70em;
   height: 200px;
